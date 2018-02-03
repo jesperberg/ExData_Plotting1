@@ -1,8 +1,7 @@
-## !!!! IMPORTANT: I manually deleted all dates but the dates in scope.
+setwd("SET YOUR WORKING DIRECTORY")
 
-setwd("D:/Program/RStudio/Projects/Coursera/Exploratory Data Analysis/W1/Project/Data")
-
-dataset <- read.csv("household_power_consumption.txt", sep=";", as.is = TRUE)
+data <- read.csv("household_power_consumption.txt", sep=";", as.is = TRUE)
+dataset <- subset(data, data$Date == "1/2/2007" | data$Date == "2/2/2007")
 
 par(mfrow = c(1,1))
 
