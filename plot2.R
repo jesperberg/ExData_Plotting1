@@ -1,3 +1,5 @@
+## !!!! IMPORTANT: I manually deleted all dates but the dates in scope.
+
 setwd("D:/Program/RStudio/Projects/Coursera/Exploratory Data Analysis/W1/Project/Data")
 
 dataset <- read.csv("household_power_consumption.txt", sep=";", as.is = TRUE)
